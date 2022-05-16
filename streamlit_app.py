@@ -56,3 +56,6 @@ streamlit.dataframe(my_data_rows)
 #Allow end user to add fruit ot table
 fruit_choice = streamlit.text_input('What fruit would you like to add','jackfruit')
 streamlit.write('The user added: ', fruit_choice)
+
+#this won't work but for class purposes only
+my_cur.execute = ("insert into fruit_load_list values('from streamlit')")
