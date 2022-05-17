@@ -42,7 +42,7 @@ try:
     streamlit_dataframe(back_from_function)
 
 #While we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 #streamlit.write('The user entered', fruit_choice)
 
 #streamlit.text(fruityvice_response.json()) #Just writes the data to the screen
